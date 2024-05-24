@@ -1,0 +1,68 @@
+
+php_value date.timezone 'Africa/Nairobi'
+
+# HTID:19478866: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:19478866:
+
+#Rewrite URL
+RewriteEngine On
+
+RewriteRule ^/chama$ index.php [L]
+RewriteRule ^login$ login.php [L]
+RewriteRule ^loginme$ loginme.php [L]
+RewriteRule ^signup$ signup.php [L]
+RewriteRule ^logout$ logout.php [L]
+RewriteRule ^admins$ index.php [L]
+RewriteRule ^products$ /products.php [L]
+RewriteRule ^services$ /services.php [L]
+RewriteRule ^contacts$ /contacts.php [L]
+RewriteRule ^about$ /about.php [L]
+RewriteRule ^bookings$ bookings1.php [L]
+RewriteRule ^book$ bookings1.php [L]
+RewriteRule ^bookingsmgt$ bookingsMgt1.php [L]
+RewriteRule ^order$ /order.php [L]
+RewriteRule ^rewards$ rewards1.php [L]
+RewriteRule ^new_customer$ new_customer.php [L]
+RewriteRule ^careers$ /careers.php [L]
+RewriteRule ^deposits$ pay1.php [L]
+RewriteRule ^redeem$ redeem.php [L]
+RewriteRule ^passreset$ passreset.php [L]
+RewriteRule ^points$ /points.php [L]
+RewriteRule ^passwordReset$ passwordReset.php [L]
+RewriteRule ^new_password$ new_password.php [L]
+RewriteRule ^inventory$ inventory1.php [L]
+RewriteRule ^expenses$ expenses1.php [L]
+RewriteRule ^performance$ performance1.php [L]
+RewriteRule ^commissions$ payCommission1.php [L]
+RewriteRule ^mpesa$ stk-push1.php [L]
+RewriteRule ^paympesa$ stk-push2.php [L]
+RewriteRule ^withdraw$ withdrawTo1.php [L]
+RewriteRule ^marketing$ marketing1.php [L]
+RewriteRule ^profile$ user-profile1.php [L]
+RewriteRule ^staff$ staffing1.php [L]
+RewriteRule ^customers$ customers.php [L]
+RewriteRule ^backup$ /regular_backup.php [L]
+RewriteRule ^give$ /templates/sendMoneyAuto.php [L]
+RewriteRule ^request_payment$ /templates/request_payment.php [L]
+RewriteRule ^autorestore$ sys_restore.php [L]
+RewriteRule ^verify$ verifyOtp.php [L]
+RewriteRule ^errorpage$ errorPage.php [L]
+RewriteRule ^test$ test.php [L]
+RewriteRule ^test$ test.php [L]
+RewriteRule ^api_doc$ errorPage.php [L]
+RewriteRule ^terms$ /fileStore/terms/Terms_and_Conditions.pdf [L]
+RewriteRule ^privacy$ /fileStore/privacy/Privacy_Policy.pdf [L]
+RewriteRule ^webmanager$ webmanager.php [L]
+RewriteRule ^loans$ loanApplications.php [L]
+RewriteRule ^due_today$ due_today.php [L]
+RewriteRule ^past_due$ past_due.php [L] 
+RewriteRule ^statement$ /templates/customer_statement.php [L]
+RewriteRule ^cleared$ /cleared_loans.php [L]
+RewriteRule ^portfolio$ /staff_portfolio.php [L]
+RewriteRule ^accounting$ /accounting.php [L]
+
+
+php_value error_log ../errors.log
+php_flag log_errors On
+

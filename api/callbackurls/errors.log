@@ -1,0 +1,5 @@
+[14-Apr-2024 20:21:03 Africa/Nairobi] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_result::num_rows() in /home/essenti2/mfi.essentialapp.site/api/callbackurls/smsDelivery/smsDelivery.php:25
+Stack trace:
+#0 /home/essenti2/mfi.essentialapp.site/api/callbackurls/smsDelivery/smsDelivery.php(89): getSMSMessageIDWithoutStatus()
+#1 {main}
+  thrown in /home/essenti2/mfi.essentialapp.site/api/callbackurls/smsDelivery/smsDelivery.php on line 25

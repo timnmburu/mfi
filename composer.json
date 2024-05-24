@@ -1,0 +1,21 @@
+{
+    "name": "vendor/exceltech",
+    "description": "Essentialapp.site",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "intasend/intasend-php": "^1.1",
+        "graham-campbell/result-type": "^1.1",
+        "vlucas/phpdotenv": "^5.6",
+        "dompdf/dompdf": "^2.0",
+        "phpmailer/phpmailer": "^6.9",
+        "setasign/fpdf": "^1.8",
+        "setasign/fpdi": "^2.6",
+        "mpdf/mpdf": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tables\\": "Classes/"
+        }
+    }
+}

@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^$ get_collections_responses.php [L]
